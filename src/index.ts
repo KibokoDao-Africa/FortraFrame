@@ -6,7 +6,7 @@ import type { FrameSignaturePacket } from './types';
 const app = new Hono();
 
 // Your uploaded image URL - replace with the actual hosted image URL
-const uploadedImageUrl = 'https://imgur.com/a/T6JWdtv';
+const uploadedImageUrl = 'https://i.imgur.com/tHyWG3c.jpeg';
 
 app.get('/', (c) => {
   // Replace the placeholder URL with the URL of the uploaded image
